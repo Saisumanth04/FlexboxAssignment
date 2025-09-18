@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.body{
+    margin: 0;
+    padding:0;
+    background-image: url('\E:\sumanth engineering\web\HTML\media\1.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-weight: bold;
+}
+.topic {
+    margin:0%;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+    background-color:goldenrod;
+}
+.topic h2{
+    color:deeppink;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    overflow: auto;
+    overflow-x: auto;
+    box-sizing: border-box;
+
+}
+.container div{
+    border-radius: 2px;
+}
+.sport{
+    color: teal;
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport h3{
+    color:teal;
+    margin:0%;
+    background-color: khaki;
+}
+.sport1{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport2{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport3{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport4{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport5{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+
+}
+.sport6{
+        border:2px solid;
+    border-color: bisque;
+    border-radius: 2%;
+    text-align: center;
+    flex-grow: 1;
+    background-color:lemonchiffon;
+    align-content: space-around;
+
+}
+.container p{
+    color: cadetblue;
+}
+a{
+    cursor: pointer;
+} 
+a:hover{
+    box-shadow: 10px 10px  20px black;
+}
+image{
+    padding-bottom: 10px;
+}
+
+.footer{
+    background-color: darksalmon;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+title{
+    font-style: italic;
+}
+.footer p:hover{
+    text-decoration: underline;
+    
+}
